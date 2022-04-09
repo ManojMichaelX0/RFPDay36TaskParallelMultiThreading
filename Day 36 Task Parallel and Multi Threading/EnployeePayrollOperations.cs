@@ -21,10 +21,28 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
             });
             Console.WriteLine(this.employeePolyeeDetailList.ToString());
         }
-        public void addEmployeeToPayroll(EmployeeDetails emp)
+        //UC 2
+        public void addEmployeeToPayrollWithThread(List<EmployeeDetails> employeePayrollDataList)
         {
-            employeePolyeeDetailList.Add(emp);
-        }
+            employeePayrollDataList.ForEach(employeeData =>
+            {
+                Task thread = new Task(() =>
+                {
 
+                    Console.WriteLine("Employee Being Added :" + employeeData.EmployeeName);
+                    this.addEmployeeToPayroll(employeeData);
+                    Console.WriteLine("Employee added : " + employeeData.EmployeeName);
+                });
+                thread.Start();
+            });
+                Console.WriteLine(this.employeePolyeeDetailList.Count);
+            }
+        public void addEmployeeToPayroll(EmployeeDetails emp)
+            {
+                employeePolyeeDetailList.Add(emp);
+            }
+
+
+
+        }
     }
-}

@@ -25,11 +25,18 @@ namespace EmployeePayrollTest
             employees.Add(new EmployeeDetails(EmployeeID: 9, EmployeeName: "Nami", PhoneNumber: "8123429025", Address: "OnePiece", Department: "Navigator", Gender: 'F', BasicPay: 460000, Deductions: 300, TaxablePay: 100, Tax: 100, NetPay: 45000, City: "Grand Blue", Country: "Anime"));
             employees.Add(new EmployeeDetails(EmployeeID: 10, EmployeeName: "Naruto", PhoneNumber: "8123429025", Address: "Naruto", Department: "Hokage", Gender: 'M', BasicPay: 550000, Deductions: 300, TaxablePay: 100, Tax: 100, NetPay: 540000, City: "Leaf Village", Country: "Anime"));
 
+            //Uc 1 without Thread
             EnployeePayrollOperations employeePayrollOperations = new EnployeePayrollOperations();
             DateTime StartDateTime = DateTime.Now;
             employeePayrollOperations.addEmployeeToPayroll(employees);
             DateTime stopDateTime = DateTime.Now;
-            Console.WriteLine("Duration Without thread: " +(stopDateTime-StartDateTime));
+            Console.WriteLine("Duration Without thread: " + (stopDateTime - StartDateTime));
+
+            //Uc 2 With Thread
+            DateTime StartDateTimeThread = DateTime.Now;
+            employeePayrollOperations.addEmployeeToPayrollWithThread(employees);
+            DateTime stopDateTimeThread = DateTime.Now;
+            Console.WriteLine("Duration With thread: " + (stopDateTime - StartDateTime));
 
         }
     }

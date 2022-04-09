@@ -14,3 +14,19 @@ D:\.net\Day 34 Address Book\Day 36 Task Parallel and Multi Threading\Day 36 Task
 D:\.net\Day 34 Address Book\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.pdb
 D:\.net\Day 34 Address Book\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.genruntimeconfig.cache
 D:\.net\Day 34 Address Book\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\ref\Day 36 Task Parallel and Multi Threading.dll
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\bin\Debug\net5.0\Day 36 Task Parallel and Multi Threading.exe
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\bin\Debug\net5.0\Day 36 Task Parallel and Multi Threading.deps.json
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\bin\Debug\net5.0\Day 36 Task Parallel and Multi Threading.runtimeconfig.json
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\bin\Debug\net5.0\Day 36 Task Parallel and Multi Threading.runtimeconfig.dev.json
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\bin\Debug\net5.0\Day 36 Task Parallel and Multi Threading.dll
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\bin\Debug\net5.0\Day 36 Task Parallel and Multi Threading.pdb
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.csproj.AssemblyReference.cache
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.AssemblyInfoInputs.cache
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.AssemblyInfo.cs
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.csproj.CoreCompileInputs.cache
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.dll
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\refint\Day 36 Task Parallel and Multi Threading.dll
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.pdb
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\Day 36 Task Parallel and Multi Threading.genruntimeconfig.cache
+D:\.net\Day 36 Task Parallel and Multi Threading\Day 36 Task Parallel and Multi Threading\obj\Debug\net5.0\ref\Day 36 Task Parallel and Multi Threading.dll
