@@ -27,16 +27,11 @@ namespace EmployeePayrollTest
 
             //Uc 1 without Thread
             EnployeePayrollOperations employeePayrollOperations = new EnployeePayrollOperations();
-            DateTime StartDateTime = DateTime.Now;
+            
             employeePayrollOperations.addEmployeeToPayroll(employees);
-            DateTime stopDateTime = DateTime.Now;
-            Console.WriteLine("Duration Without thread: " + (stopDateTime - StartDateTime));
 
             //Uc 2 With Thread
-            DateTime StartDateTimeThread = DateTime.Now;
             employeePayrollOperations.addEmployeeToPayrollWithThread(employees);
-            DateTime stopDateTimeThread = DateTime.Now;
-            Console.WriteLine("Duration With thread: " + (stopDateTime - StartDateTime));
 
         }
     }
