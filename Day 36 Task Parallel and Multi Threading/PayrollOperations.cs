@@ -44,11 +44,7 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
             });
             Console.WriteLine(this.PayrollDetailList.Count);
         }
-        //UC 6 update Basic Pay Without Thread
-        public void UpdatePayRollWithThread(List<PayrollDetails> payrollDataList)
-        {
-
-        }
+        
         public void addToPayroll(PayrollDetails pay)
         {
             PayrollDetailList.Add(pay);
