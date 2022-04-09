@@ -18,10 +18,10 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
             {
                 Stopwatch Time = new Stopwatch();
                 Time.Start();
-                Console.WriteLine("Payment Being Added  :" + payrollData.BasicPay);
+                Console.WriteLine("Payment Being Added  :" + payrollData.BasicPay+ ", Deduction Added : " + payrollData.Deductions + " ,TaxablePay Added : " + payrollData.TaxablePay + ", Tax Added : " + payrollData.Tax + ", NetPay Added : " + payrollData.NetPay);
                 this.addToPayroll(payrollData);
                 Time.Stop();
-                Console.WriteLine("Payment added : " + payrollData.BasicPay + " ( Duration  : " + Time.Elapsed + ")");
+                Console.WriteLine("Payment added : " + payrollData.BasicPay + ", Deduction Added : " + payrollData.Deductions + " ,TaxablePay Added : " + payrollData.TaxablePay + ", Tax Added : " + payrollData.Tax + ", NetPay Added : " + payrollData.NetPay+ " ( Duration  : " + Time.Elapsed + ")");
             });
             Console.WriteLine(this.PayrollDetailList.ToString());
         }
@@ -35,10 +35,10 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
                     Stopwatch Time = new Stopwatch();
                     Time.Start();
 
-                    Console.WriteLine("Payment Being Added  :" + payrollData.BasicPay);
+                    Console.WriteLine("Basic Added  : " + payrollData.BasicPay+", Deduction Added : "+payrollData.Deductions+" ,TaxablePay Added : "+payrollData.TaxablePay+", Tax Added : "+payrollData.Tax+", NetPay Added : "+payrollData.NetPay);
                     this.addToPayroll(payrollData);
                     Time.Stop();
-                    Console.WriteLine("Payment added : " + payrollData.BasicPay + " ( Duration : " + Time.Elapsed + ")");
+                    Console.WriteLine("Basic added : " + payrollData.BasicPay + ", Deduction Added : " + payrollData.Deductions + " ,TaxablePay Added : " + payrollData.TaxablePay + ", Tax Added : " + payrollData.Tax + ", NetPay Added : " + payrollData.NetPay+ " ( Duration : " + Time.Elapsed + ")");
                 });
                 thread.Start();
             });
