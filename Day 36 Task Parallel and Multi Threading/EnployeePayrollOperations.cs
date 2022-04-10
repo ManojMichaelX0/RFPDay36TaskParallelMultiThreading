@@ -9,9 +9,10 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
 {
     public class EnployeePayrollOperations
     {
-        public List<EmployeeDetails> employeePolyeeDetailList = new List<EmployeeDetails>();
+        public List<EmployeeDetails> employeePayDetailList = new List<EmployeeDetails>();
 
-        //UC 1
+
+        //UC 1,3
         public void addEmployeeToPayroll(List<EmployeeDetails> employeePayrollDataList)
         {
             employeePayrollDataList.ForEach(employeeData =>
@@ -21,11 +22,11 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
                 Console.WriteLine("Employee Being Added  :" + employeeData.EmployeeName);
                 this.addEmployeeToPayroll(employeeData);
                 Time.Stop();
-                Console.WriteLine("Employee added : " + employeeData.EmployeeName +" ( Duration  : "+Time.Elapsed+")");
+                Console.WriteLine("Employee added : " + employeeData.EmployeeName + " ( Duration  : " + Time.Elapsed + ")");
             });
-            Console.WriteLine(this.employeePolyeeDetailList.ToString());
+            Console.WriteLine(this.employeePayDetailList.ToString());
         }
-        //UC 2
+        //UC 2,3
         public void addEmployeeToPayrollWithThread(List<EmployeeDetails> employeePayrollDataList)
         {
             employeePayrollDataList.ForEach(employeeData =>
@@ -38,20 +39,17 @@ namespace Day_36_Task_Parallel_and_Multi_Threading
                     Console.WriteLine("Employee Being Added :" + employeeData.EmployeeName);
                     this.addEmployeeToPayroll(employeeData);
                     Time.Stop();
-                    Console.WriteLine("Employee added : " + employeeData.EmployeeName+" ( Duration : "+Time.Elapsed+")");
+                    Console.WriteLine("Employee added : " + employeeData.EmployeeName + " ( Duration : " + Time.Elapsed + ")");
                 });
                 thread.Start();
             });
-                Console.WriteLine(this.employeePolyeeDetailList.Count);
-            }
+            Console.WriteLine(this.employeePayDetailList.Count);
+        }
         public void addEmployeeToPayroll(EmployeeDetails emp)
-            {
-                employeePolyeeDetailList.Add(emp);
-
+        {
+            employeePayDetailList.Add(emp);
 
         }
 
-
-
     }
-    }
+}
